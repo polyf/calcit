@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="grid/simple-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calc It</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6" id="formulario">
+                        <a class="texto-principal">Descubra já seu gasto calórico na esteira de forma rápida e precisa!</a>
+                        <form>
+                        <label>Peso<input class="input-field" type="number" placeholder="Ex: 60kg" id="peso" name="peso" autofocus></label>
+                        <label>Tempo<input class="input-field" type="number" placeholder="Ex: 60 minutos" id="tempo" name="tempo"></label>
+                        <label>Velocidade<input class="input-field" type="number" placeholder="Ex: 10km/h" id="velocidade" name="velocidade"></label>
+                        <button onclick="enviar()" class="principal-button">CALCULE AGORA</button>
+                        <button class="resultado" id="resultado">Ex: Você gastou 118 calorias</button>
+                        </form>
+                    </div>
+                    <div class="col-6" id="imagem">
+                        <div>
+                            <img src="treadmill.png" class="imagem-esteira">
+                        </div>
+                    </div>  
+                </div>
+
+            
+            
+            </div>
+        </div>
+        
+    </header>
+    <footer class="fixa-rodape">
+        <a href="https://github.com/polyf"><button type="button" class="github-button"> <img src="github-mark-white.png" id="github-logo" height ="20px" width="20px" />Follow me on Github</button></a>
+    </footer>
+</body>
+</html>
